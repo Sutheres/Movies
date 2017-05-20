@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for Order-BY Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_most_popular_value</string>
+
+    <!-- Label for most popular option -->
+    <string name="settings_most_popular_label">Most Popular</string>
+    <string name="settings_most_popular_value" translatable="false">popularity.desc</string>
+
+    <!-- Label for highest rated option -->
+    <string name="settings_highest_rated_label">Highest Rated</string>
+    <string name="settings_highest_rated_value" translatable="false">vote_average.desc</string>
+</resources>
